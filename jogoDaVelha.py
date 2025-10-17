@@ -90,8 +90,8 @@ while len(free):
 
 display_board(board)
 if victor == 'you':
-	print("You won!")
+	print("Você ganhou!")
 elif victor == 'me':
-	print("I won")
+	print("Eu ganhei!")
 else:
-	print("Tie!")
+	print("Empatou!")
